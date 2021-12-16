@@ -14,6 +14,7 @@
 		045D06E62768ACCB00557FE9 /* Local_Notifications.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 045D06E42768ACCB00557FE9 /* Local_Notifications.xcdatamodeld */; };
 		045D06E82768ACCF00557FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045D06E72768ACCF00557FE9 /* Assets.xcassets */; };
 		045D06EB2768ACCF00557FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045D06E92768ACCF00557FE9 /* LaunchScreen.storyboard */; };
+		95BA63D42769D8AE00B2B686 /* CustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BA63D32769D8AE00B2B686 /* CustomClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		045D06E72768ACCF00557FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		045D06EA2768ACCF00557FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		045D06EC2768ACCF00557FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95BA63D32769D8AE00B2B686 /* CustomClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				045D06E92768ACCF00557FE9 /* LaunchScreen.storyboard */,
 				045D06EC2768ACCF00557FE9 /* Info.plist */,
 				045D06E42768ACCB00557FE9 /* Local_Notifications.xcdatamodeld */,
+				95BA63D32769D8AE00B2B686 /* CustomClass.swift */,
 			);
 			path = "Local Notifications";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95BA63D42769D8AE00B2B686 /* CustomClass.swift in Sources */,
 				045D06E62768ACCB00557FE9 /* Local_Notifications.xcdatamodeld in Sources */,
 				045D06E02768ACCB00557FE9 /* ViewController.swift in Sources */,
 				045D06DC2768ACCB00557FE9 /* AppDelegate.swift in Sources */,
