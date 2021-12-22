@@ -145,8 +145,7 @@ class ViewController: UIViewController , UIPickerViewDelegate, UIPickerViewDataS
         center.removeAllDeliveredNotifications() // To remove all delivered notifications
         center.removeAllPendingNotificationRequests()
         changeTimer(timerInMinutes: minute)
-      
-        
+
         
     }
     
@@ -198,12 +197,11 @@ class ViewController: UIViewController , UIPickerViewDelegate, UIPickerViewDataS
             sendNotifications(hour: hour, minute: minute, second: second)
             dueToTimerLabel.text = "Work Until - \(hour):\(minute):\(second)"
         }
-        
-        
-        
+       
     }
     
     func sendNotifications(hour: Int, minute : Int, second : Int){
+        
         let center = UNUserNotificationCenter.current()
         
         let content = UNMutableNotificationContent()
